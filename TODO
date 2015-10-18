@@ -1,0 +1,30 @@
+- Replace helm with ido and maybe find-things-fast:
+http://defn.io/posts/2015-10-12-ido-mode.html
+
+- Add imenu support (goto-function-definition, etc) at least for ruby and js
+http://stackoverflow.com/questions/12703110/what-happened-to-the-ido-imenu-in-ruby-mode-function-in-emacs24
+
+- check out Emacs Code Browser: http://ecb.sourceforge.net
+
+
+- Switch to spacemacs-base and add the following packages:
+  - auto-highlight-symbol
+  - buffer-move
+  - evil-exchange? - exchange 2 text objects
+  - evil-mc - MULTIPLE CURSORS!!!!
+  - evil-matchit
+  - expand-region
+  - flx-ido
+  - golden-ratio
+  - helm-ag
+  - helm-swoop - aquele search altamente!
+  - highlight-parentheses
+  - hungry-delete - delete whole blocks of whitespace
+  - info+ - improves readability of emacs documentation
+  - iedit - edit multiple ocurrences of symbol simultaneously
+  - indent-guid
+  - rainbow-delimiters
+  - smartparens - only if you learn how to work with it...
+  - smooth-scrolling
+  - spaceline
+  - volatile-highlights
