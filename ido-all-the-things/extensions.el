@@ -41,12 +41,11 @@
 
 (defun ido-all-the-things/init-find-things-fast ()
   (require 'find-things-fast)
-  (setq ftf-filetypes
-        '("*.h" "*.hpp" "*.cpp" "*.c" "*.cc" "*.cpp" "*.inl" "*.grd" "*.idl" "*.m"
-          "*.mm" "*.py" "*.sh" "*.cfg" "*SConscript" "SConscript*" "*.scons"
-          "*.vcproj" "*.vsprops" "*.make" "*.gyp" "*.gypi" "*.rb" "*.js" "*.jsx"
-          ".gitignore" "Rakefile" "Gemfile" "*.yml" ".eslintrc" "Capfile" "Procfile"
-          "*.md" "*.json"))
+  ;; (setq ftf-filetypes
+  ;;       '("*.h" "*.cpp" "*.c" "*.cpp" "*.py" "*.sh" "*.cfg" "*.rb" "*.erb" "*.js"
+  ;;         "*.jsx" ".gitignore" "Rakefile" "Gemfile" "*.yml" ".eslintrc"
+  ;;         "Capfile" "Procfile" "*.md" "*.json" "*.css" "*.scss" "*.sass"))
+  (setq ftf-filetypes '("*"))
   )
 
 (defun ido-all-the-things/init-ido-keybindings ()
